@@ -42,6 +42,12 @@
   {%- endif %}
 </div>
 
+  <div class="powered-by">
+    <a href='http://www.beian.miit.gov.cn'/>沪ICP备xxxxx号</a>
+  </div>
+
+  <span class="post-meta-divider">|</span>
+
 {%- if theme.footer.powered.enable %}
   <div class="powered-by">
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
