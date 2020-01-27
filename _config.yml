@@ -104,9 +104,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 
@@ -238,6 +238,8 @@ chat:
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
+
+scroll_to_more: true
 
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
