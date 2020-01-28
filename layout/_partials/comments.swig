@@ -1,4 +1,7 @@
 {%- if page.comments %}
+  <div class="comments">
+    <section id="isso-thread"></section>
+  </div>
   {%- if theme.injects.comment.length == 1 %}
     {%- set inject_item = theme.injects.comment[0] %}
     {{ partial(inject_item.layout, inject_item.locals, inject_item.options) }}

@@ -11,3 +11,4 @@
     isPost: {{ is_post() }}
   };
 </script>
+<script data-isso="/isso/" src="/isso/js/embed.min.js"></script>
