@@ -44,7 +44,7 @@ favicon:
   medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
-  #android_manifest: /images/manifest.json
+  android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 footer:
@@ -575,7 +575,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: disqusjs
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -600,14 +600,15 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  api: https://cc.junguo.fun/disqus/
+  #apikey: u0vda7W26M4QJ86W66v6CFK8JOTFsHe4wkfXo5Fcnp8mKBlkAQRxUKrQTjUGzGcd
+  apikey: 5BqAKtidfyG4glaXUiIyznCSS8WlpTxIaBaGlGy8XMF1DBONgf3IXg0ovSYQPRFQ
+  shortname: junguofun
 
 # Changyan
 changyan:
