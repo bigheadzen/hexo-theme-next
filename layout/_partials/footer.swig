@@ -43,7 +43,7 @@
 </div>
 
   <div class="powered-by">
-    <a href='http://www.beian.miit.gov.cn'/>沪ICP备20002535号</a>
+    <a href='https://beian.miit.gov.cn'/>沪ICP备20002535号-1</a>
   </div>
 
   <span class="post-meta-divider">|</span>
